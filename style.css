@@ -53,11 +53,14 @@ main {
   color: var(--grey-1);
   font-size: 3rem;
   margin-bottom: 2rem;
+  margin-left: 100px;
 }
 
 .container .content .word p {
   color: var(--grey-1);
   font-size: 17px;
+  margin-left: 100px;
+
 }
 
 .container .content .form {
@@ -228,14 +231,14 @@ main {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1440px) {
   .container {
     padding: 0 2rem;
     transition: var(--trans);
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 375px) {
   .container {
     padding: 0 10px;
     transition: var(--trans);
