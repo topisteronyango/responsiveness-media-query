@@ -235,6 +235,7 @@ main {
   .container {
     padding: 0 2rem;
     transition: var(--trans);
+    position:relative;
   }
 }
 
@@ -244,4 +245,6 @@ main {
     transition: var(--trans);
   }
 }
+
+
 
